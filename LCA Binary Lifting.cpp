@@ -1,6 +1,4 @@
-<snippet>
-	<content><![CDATA[
-const int N = ${0:200005};
+const int N = 200005;
 int timer = 0, lgn;
 vector<int> adj[N], tin(N), tout(N), lev(N, 0);
 vector<vector<int>> up;
@@ -37,9 +35,3 @@ void preprocess(int root, int n) {
 	up.assign(n+1, vector<int>(lgn+1, 0));
 	dfs(root, root);
 }
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>LCA Binary Lifting</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.c++</scope>
-</snippet>
