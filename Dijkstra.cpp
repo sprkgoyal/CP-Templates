@@ -1,9 +1,7 @@
-<snippet>
-	<content><![CDATA[
 const ll INF = 9e18;
-vector<pair<int, ll>> adj[${0:200005}];
-vector<ll> d(${0:200005}, INF);
-vector<int> p(${0:200005}, -1);
+vector<pair<int, ll>> adj[200005];
+vector<ll> d(200005, INF);
+vector<int> p(200005, -1);
 
 void dijkstra(int v) {
     d[v] = 0;
@@ -24,9 +22,3 @@ void dijkstra(int v) {
         }
     }
 }
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>Dijkstra</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.c++</scope>
-</snippet>
