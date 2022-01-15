@@ -1,5 +1,3 @@
-<snippet>
-	<content><![CDATA[
 template<typename T>
 class segTree {
     int N;
@@ -57,9 +55,4 @@ public:
         return qry(1, 0, N-1, l, r);
     }
 };
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>SegmentTree</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.c++</scope>
-</snippet>
+
