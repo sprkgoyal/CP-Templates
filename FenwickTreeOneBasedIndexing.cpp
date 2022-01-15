@@ -1,5 +1,3 @@
-<snippet>
-	<content><![CDATA[
 struct FenwickTreeOneBasedIndexing {
     vector<int> bit;  // binary indexed tree
     int n;
@@ -32,9 +30,3 @@ struct FenwickTreeOneBasedIndexing {
             bit[idx] += delta;
     }
 };
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>FenwickTreeOneBasedIndexing</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.c++</scope>
-</snippet>
