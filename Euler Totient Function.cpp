@@ -1,5 +1,3 @@
-<snippet>
-	<content><![CDATA[
 ll phi(ll n) {
     ll result = n;
     ll s = sqrt(n)+1;
@@ -14,9 +12,3 @@ ll phi(ll n) {
         result -= result / n; 
     return result; 
 }
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>Phi</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.c++</scope>
-</snippet>
