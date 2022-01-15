@@ -1,5 +1,3 @@
-<snippet>
-	<content><![CDATA[
 ll power(ll x, ll y) {
     ll res = 1;
     while(y) {
@@ -22,9 +20,3 @@ void preprocess(int n) {
 ll nCr(ll n, ll r) {
     return fact[n] * power(fact[r], mod-2) % mod * power(fact[n-r], mod-2) % mod;
 }
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>nCr</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.cpp</scope> -->
-</snippet>
