@@ -1,6 +1,4 @@
-<snippet>
-	<content><![CDATA[
-const int ms = ${0:4};
+const int ms = 4;
 void matmul(ll a[][ms], ll b[][ms]) {
     ll ret[ms][ms] = {0};
     for(int i=0; i<ms; i++)
@@ -25,9 +23,3 @@ void matexp(ll mat[][ms], ll b) {
         for(int j=0; j<ms; j++)
             mat[i][j] = ans[i][j];
 }
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>MatExp</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.c++</scope>
-</snippet>
