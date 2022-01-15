@@ -1,5 +1,3 @@
-<snippet>
-	<content><![CDATA[
 class SuffixStructure {
 	string str;
 	vector<int> p, lcp, c;
@@ -68,9 +66,3 @@ public:
 		return this->lcp;
 	}
 };
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>SuffixStructure</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.c++</scope> -->
-</snippet>
