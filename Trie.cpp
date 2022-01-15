@@ -1,5 +1,3 @@
-<snippet>
-	<content><![CDATA[
 const int K = 26;
 
 struct Vertex {
@@ -53,9 +51,3 @@ int go(int v, char ch) {
     }
     return t[v].go[c];
 } 
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>Trie</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.c++</scope> -->
-</snippet>
