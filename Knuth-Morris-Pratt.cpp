@@ -1,5 +1,4 @@
-<snippet>
-	<content><![CDATA[
+
 bool kmp(string &s, string &t) {
     vector<int> arr(t.size(), 0);
     int j = 0, i;
@@ -25,9 +24,3 @@ bool kmp(string &s, string &t) {
     }
     return j == t.size();
 }
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>KMP</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.c++</scope>
-</snippet>
