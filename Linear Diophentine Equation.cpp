@@ -1,5 +1,3 @@
-<snippet>
-	<content><![CDATA[
 int gcd(int a, int b, int &x, int &y) {
     if (a == 0) {
         x = 0; y = 1;
@@ -73,9 +71,3 @@ int find_all_solutions(int a, int b, int c, int minx, int maxx, int miny, int ma
         return 0;
     return (rx - lx) / abs(b) +  1;
 }
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>Linear Diophentine Equation</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.c++</scope>
-</snippet>
